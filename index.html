@@ -18,21 +18,21 @@
         <p id="title-welcome">Bem-vindo ao meu portfólio!</p>
         <nav>
             <ul>
-                <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <button id="btn-cv">Baixar CV</button>
+        <button class="btn-primary">Baixar CV</button>
     </header>
 
     <main>
         <div class="hero">
             <div class="conteudo-hero">
                 <h1>Olá, eu sou o João Victor!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nulla diam, rutrum sit amet lobortis quis, convallis ut lectus. Integer sollicitudin tincidunt erat, id accumsan erat eleifend imperdiet. </p>
+                <p>Estudante de Ciência da Computação e desenvolvedor em formação com foco em desenvolvimento web.</p>
                 <div class="area-contato">
-                    <button id="btn-cv" type="button">Contato</button>
+                    <button class="btn-primary" type="button">Contato</button>
                     <button class="btn-rede" type="button">
                         <img src="assets/icons/Icon-Linkedin-PNG.png" alt="LinkedIn" onclick="window.open('https://www.linkedin.com/in/joaovictorm29/', '_blank')"> 
                     </button>
@@ -47,6 +47,85 @@
         </div>
     </main>
 
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <p>Aqui você pode ver alguns dos meus projetos desenvolvidos.</p>
+        <div class="project-card">
+            <table>
+                <tr>
+                    <th>Nome do Projeto</th>
+                    <th>Descrição</th>
+                    <th>Link pro projeto</th>
+                </tr>
+                <tr>
+                    <td>Biblioteca App</td>
+                    <td>Aplicativo mobile desenvolvido com Kotlin para gerenciamento de biblioteca</td>
+                    <td><a href="https://github.com/joaovictorm29/biblioteca-unifor" target="_blank">Ver projeto</a></td>
+                </tr>
+                <tr>
+                    <td>Landing Page - Socio Vozão</td>
+                    <td>Landing Page desenvolvida com HTML e CSS com intuito de simular atividade de mercado</td>
+                    <td><a href="https://joaovictorm29.github.io/socio-vozao/" target="_blank">Ver projeto</a></td>    
+                </tr>
+                <tr>
+                    <td>Atualiza Fipe</td>
+                    <td>Automaçao feita totalmente em python para puxar o valor da tabela fipe de cada veículo de uma planilha</td>
+                    <td><a href="https://github.com/joaovictorm29/Atualiza-Fipe/" target="_blank">Ver projeto</a></td>
+                </tr>
+                <tr>
+                    <td>Calculadora de Seguros - GTM</td>
+                    <td>Calculadora de Seguros desenvolvida com HTML, CSS e JavaScript para analisar propostas de seguro e viabilidade de compra de equipamentos</td>
+                    <td><a href="https://joaovictorm29.github.io/Calculadora-de-seguros-GTM/" target="_blank">Ver projeto</a>
+                    </td>
+            </table>
+        </div>
+
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>Sou um estudante de Ciência da Computação com muito interesse por tecnologia e desenvolvimento web. 
+            Tenho experiência em HTML, CSS, JavaScript, Java, Python... estou sempre buscando aprender novas tecnologias 
+            e aprimorar minhas habilidades. Meu objetivo é poder contribuir desenvolvendo soluções inovadoras. Hoje atuo 
+            como Estagiário de Dados, trabalho principalmente com Excel e utilizo Python para automatizar processos e gerar relatórios. 
+            Sou uma pessoa dedicada, proativa e sempre em busca de novos desafios. Além disso, estou aberto a oportunidades como freelancer 
+            na área de desenvolvimento frontend, especialmente para criação de landing pages, sites institucionais e outros projetos web.
+        
+        </p>
+
+        <h3>Habilidades</h3>
+        <div class="habilidades-card">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>FireBase</li>
+                <li>Versionamento de Código</li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Se você deseja entrar em contato comigo, meu email é <a href="mailto:29joaovictormaciel@gmail.com">29joaovictormaciel@gmail.com</a> ou utilize os links das minhas redes sociais.</p>
+        <div class="area-contato">
+            <button class="btn-rede" type="button">
+                <img src="assets/icons/Icon-Linkedin-PNG.png" alt="LinkedIn" onclick="window.open('https://www.linkedin.com/in/joaovictorm29/', '_blank')"> 
+            </button>
+            <button class="btn-rede" type="button">
+                <img src="assets/icons/iconGitHub.png" alt="GitHub" onclick="window.open('https://github.com/joaovictorm29', '_blank')">
+            </button>
+            <button class="btn-rede" type="button">
+                <img src="assets/icons/iconWpp.avif" alt="WhatsApp" onclick="window.open('https://wa.me/85991937529', '_blank')">
+            </button>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Dev Jotave. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>

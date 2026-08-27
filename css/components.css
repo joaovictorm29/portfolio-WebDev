@@ -52,7 +52,7 @@ nav a:focus-visible {
     color: var(--cor-destaque-hover);
 }
 
-#btn-cv {
+.btn-primary {
     margin-left: 20px;
     border: 1px solid var(--cor-destaque);
     border-radius: 4px;
@@ -62,8 +62,8 @@ nav a:focus-visible {
     cursor: pointer;
 }
 
-#btn-cv:hover,
-#btn-cv:focus-visible {
+.btn-primary:hover,
+.btn-primary:focus-visible {
     background-color: var(--cor-destaque-hover);
 }
 
