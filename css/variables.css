@@ -1,0 +1,10 @@
+:root {
+    --cor-fundo: #1d1c1c;
+    --cor-superficie: rgba(29, 28, 28, 0.82);
+    --cor-texto: #ffffff;
+    --cor-texto-suave: #b8b8b8;
+    --cor-destaque: #2670f9;
+    --cor-destaque-hover: #4f8cff;
+    --altura-header: 64px;
+    --fonte-primaria: 'Poppins', sans-serif;
+}

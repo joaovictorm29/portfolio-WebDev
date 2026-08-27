@@ -1,32 +1,3 @@
-:root {
-    --cor-fundo: #1d1c1c;
-    --cor-superficie: rgba(29, 28, 28, 0.82);
-    --cor-texto: #ffffff;
-    --cor-texto-suave: #b8b8b8;
-    --cor-destaque: #2670f9;
-    --cor-destaque-hover: #4f8cff;
-    --altura-header: 64px;
-    --fonte-primaria: 'Poppins', sans-serif;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-h1{
-    font-size: 4.5rem;
-    font-weight: 700;
-    margin: 0;
-}
-
-body {
-    margin: 0;
-    min-height: 100vh;
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
-    font-family: var(--fonte-primaria);
-}
-
 header {
     width: 100%;
     min-height: var(--altura-header);
@@ -42,31 +13,6 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-}
-
-main {
-    min-height: 100vh;
-    padding: calc(var(--altura-header) + 80px) 40px 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero {
-    width: min(100%, 1100px);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 80px;
-}
-
-.conteudo-hero {
-    max-width: 540px;
-}
-
-span{
-    color: var(--cor-destaque);
 }
 
 #title-header {
@@ -153,33 +99,4 @@ button img {
     height: 100%;
     object-fit: contain;
     background-color: #ffffff;
-}
-.image-Portfas {
-    width: 360px;
-    height: 360px;
-    border-radius: 50%;
-    overflow: hidden;
-    flex-shrink: 0;
-}
-
-#foto-perfil {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-@media (max-width: 768px) {
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .area-contato {
-        justify-content: center;
-    }
-
-    .image-Portfas {
-        width: 260px;
-        height: 260px;
-    }
 }

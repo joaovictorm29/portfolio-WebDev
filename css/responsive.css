@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .area-contato {
+        justify-content: center;
+    }
+
+    .image-Portfas {
+        width: 260px;
+        height: 260px;
+    }
+}
