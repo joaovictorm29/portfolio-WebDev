@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Jotave</title>
+    <link rel="icon" type="image/png" href="assets/images/imagePortfas.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/components.css">
@@ -23,7 +24,7 @@
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <button class="btn-primary">Baixar CV</button>
+        <a class="btn-primary" href="documents/Currículo João Victor 2026.2.pdf" download="Curriculo-Joao-Victor-2026.pdf">Baixar CV</a>
     </header>
 
     <main>
@@ -32,7 +33,7 @@
                 <h1>Olá, eu sou o João Victor!</h1>
                 <p>Estudante de Ciência da Computação e desenvolvedor em formação com foco em desenvolvimento web.</p>
                 <div class="area-contato">
-                    <button class="btn-primary" type="button">Contato</button>
+                    <button class="btn-primary" type="button" onclick="window.open('https://wa.me/85991937529', '_blank')">Contato</button>
                     <button class="btn-rede" type="button">
                         <img src="assets/icons/Icon-Linkedin-PNG.png" alt="LinkedIn" onclick="window.open('https://www.linkedin.com/in/joaovictorm29/', '_blank')"> 
                     </button>
@@ -84,7 +85,7 @@
 
     <section id="sobre">
         <h2>Sobre mim</h2>
-        <p>Sou um estudante de Ciência da Computação com muito interesse por tecnologia e desenvolvimento web. 
+        <p id="sobreMim-text">Sou um estudante de Ciência da Computação com muito interesse por tecnologia e desenvolvimento web. 
             Tenho experiência em HTML, CSS, JavaScript, Java, Python... estou sempre buscando aprender novas tecnologias 
             e aprimorar minhas habilidades. Meu objetivo é poder contribuir desenvolvendo soluções inovadoras. Hoje atuo 
             como Estagiário de Dados, trabalho principalmente com Excel e utilizo Python para automatizar processos e gerar relatórios. 
@@ -95,7 +96,7 @@
 
         <h3>Habilidades</h3>
         <div class="habilidades-card">
-            <ul>
+            <ul id="lista-habilidades">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -124,7 +125,7 @@
         </div>
     </section>
     <footer>
-        <p>© 2024 Dev Jotave. Todos os direitos reservados.</p>
+        <p>© 2026 Dev Jotave. Todos os direitos reservados.</p>
     </footer>
 </body>
 
