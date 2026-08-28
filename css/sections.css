@@ -67,9 +67,9 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;   
-    padding: 50px 0; 
+    padding: 40px 0; 
 }
 section #sobreMim-text{
     width: 50%;
-    text-align: center;
+    text-align: justify;
 }
